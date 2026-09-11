@@ -1,0 +1,89 @@
+# Build and deployment output
+build/
+build-*/
+cmake-build-*/
+release/
+Release/
+Debug/
+out/
+bin/
+obj/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+Makefile
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Generated reports, logs and game saves
+selftest_report*.txt
+selftest_report*.json
+selftest_save*.json
+synera_save*.json
+saves/
+*.log
+*.dmp
+*.stackdump
+
+# Local audit evidence and verification builds (never publish)
+/.local-audit/
+
+# Third-party packs retained locally pending redistribution review.
+# Ignoring is a staging safeguard, not a grant of permission or a deletion.
+/assets/
+
+# Archives and packaged builds
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bundle
+
+# Local tools, editors and machine-specific configuration
+.cursor/
+.codex/
+.vscode/
+.idea/
+.vs/
+*.user
+*.user.*
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.swp
+*.swo
+*~
+
+# Local caches, credentials and temporary files
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
